@@ -88,18 +88,25 @@ nav ul li a:hover {
     position: absolute;
     width: 100%;
     margin: auto;
-    padding-top: 80px;
+    padding-top: 60px;
     font-size: 36px;
 }
 
 #header-text{
-    margin-top: 30%;
-    padding: 40px;
-    
+    margin-top: 50px;
+    padding: 40px;    
 }
 
 .header-right {
     max-width: 50%;
+    margin: auto;
+}
+
+.video {
+  display: flex;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.595) -4px 9px 25px -6px;
+  border-radius: 10px;
 }
 
 .shop-btn {
@@ -130,8 +137,11 @@ nav ul li a:hover {
 }
 
 .abschnitt {
-    background-color: #F3F2FF;
+    background-color: #f2f5f8;
     padding: 60px 0px 60px 0px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    z-index: 1;
+   
 }
 
 .ziele {
@@ -335,9 +345,13 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-between;
   padding: 25px;
-  background-color: #F3F2FF;
-  
+  background-color: #f2f5f8;
+  border-radius: 10px;
+  padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;  
+
 }
+
 .accord {   
   width: 50%;
   margin: auto;
@@ -370,7 +384,7 @@ nav ul li a:hover {
 }
 
 .active {
-  background-color: #ccc;
+  background-color: #ffffff;
 }
 
 .accordion_panel {
@@ -387,6 +401,7 @@ nav ul li a:hover {
 
 .footer {  
   background-color: #9cd393;
+  border-radius: 150px 0px 0px 0px;
 }
 
 .footer_container {
@@ -402,7 +417,7 @@ nav ul li a:hover {
   height: 30px;
   padding: 15px;
   margin: auto;
-  background-color: rgb(23, 23, 23);
+  background-color: rgb(32, 32, 32);
   color: white;
   text-align: center; 
 }
